@@ -44,27 +44,33 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/mainactivity_11"
-                android:layout_width="wrap_content"
+                android:id="@+id/mainactivity_00"
+                android:layout_width="20dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="0"/>
+
+
+            <ImageButton
+                android:id="@+id/mainactivity_01"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
                 android:tag="1"
                 tools:srcCompat="@tools:sample/avatars" />
 
             <ImageButton
-                android:id="@+id/mainactivity_12"
-                android:layout_width="wrap_content"
+                android:id="@+id/mainactivity_02"
+                android:layout_width="20dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
                 android:tag="2"
-                tools:srcCompat="@tools:sample/avatars" />
-
-            <ImageButton
-                android:id="@+id/mainactivity_13"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:tag="3"
                 tools:srcCompat="@tools:sample/avatars" />
         </LinearLayout>
 
@@ -75,58 +81,71 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/mainactivity_21"
-                android:layout_width="wrap_content"
+                android:id="@+id/mainactivity_10"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:onClick="onClick"
+                android:layout_weight="1"
+                android:tag="3"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageButton
+                android:id="@+id/mainactivity_11"
+                android:layout_width="20dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
                 android:tag="4"
                 tools:srcCompat="@tools:sample/avatars" />
 
             <ImageButton
-                android:id="@+id/mainactivity_22"
-                android:layout_width="wrap_content"
+                android:id="@+id/mainactivity_12"
+                android:layout_width="20dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
                 android:tag="5"
-                tools:srcCompat="@tools:sample/avatars" />
-
-            <ImageButton
-                android:id="@+id/mainactivity_23"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:tag="6"
                 tools:srcCompat="@tools:sample/avatars" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:scaleType="fitCenter"
             android:layout_weight="1"
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/mainactivity_31"
-                android:layout_width="wrap_content"
+                android:id="@+id/mainactivity_20"
+                android:layout_width="20dp"
                 android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:onClick="onClick"
+                android:layout_weight="1"
+                android:tag="6"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageButton
+                android:id="@+id/mainactivity_21"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:onClick="onClick"
                 android:layout_weight="1"
                 android:tag="7"
                 tools:srcCompat="@tools:sample/avatars" />
 
             <ImageButton
-                android:id="@+id/mainactivity_32"
-                android:layout_width="wrap_content"
+                android:id="@+id/mainactivity_22"
+                android:layout_width="20dp"
                 android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:onClick="onClick"
                 android:layout_weight="1"
                 android:tag="8"
-                tools:srcCompat="@tools:sample/avatars" />
-
-            <ImageButton
-                android:id="@+id/mainactivity_33"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:tag="9"
                 tools:srcCompat="@tools:sample/avatars" />
         </LinearLayout>
     </LinearLayout>
