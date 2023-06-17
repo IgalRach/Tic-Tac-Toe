@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         int position= Integer.parseInt(v.getTag().toString());
         Button replay=(Button)findViewById(R.id.mainactivity_play);
-        replay.setText("REPLAY");
+        replay.setText("REMATCH");
         //If the specific cell is not empty do not do anything.
         if(gameState[position] !=2||flag!=0){
             return;
